@@ -34,7 +34,7 @@ cin >> weight;
  
 bool add_product () 
  { 
-const int max_quantity_limit = 500;	// Adjust as needed
+const int max_quantity_limit = 500;	
 	if (tot_weight < 500 && (tot_weight + (quantity * weight) <= 500)
 		&& (tot_quantity + quantity <= max_quantity_limit))
 	  
